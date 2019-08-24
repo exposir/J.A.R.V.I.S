@@ -1,0 +1,48 @@
+.wrapper {
+  width: 100vw;
+  display: flex;
+  margin-top: 100rpx;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.center {
+  width: 300rpx;
+  height: 300rpx;
+}
+
+.choice {
+}
+
+.gender {
+}
+
+.choiceCity {
+  font-size: 25rpx;
+  color: #686868;
+  margin-bottom: 20rpx;
+}
+
+.bottomBorder {
+  align-items: center;
+  text-align: center;
+  width: 323rpx;
+  height: 2rpx;
+  background: #d3d3d3;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.bottomBorder2 {
+  align-items: center;
+  text-align: center;
+  width: 230rpx;
+  height: 2rpx;
+  background: #d3d3d3;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.gender {
+}

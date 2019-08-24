@@ -1,0 +1,40 @@
+<view class='wrapper'>
+  <view class="tagWrapper">
+    <view class="tag">
+      <view class="chooiceTag">选择为您推荐的旅行风格</view>
+      <view class="first">
+        <view class="tag1 {{focus1}}" bindtap="onTap1">热门</view>
+        <view class="tag2 {{focus2}}" bindtap="onTap2">网红</view>
+        <view class="tag3 {{focus3}}" bindtap="onTap3">小众</view>
+      </view>
+      <view class="first">
+        <view class="tag4 {{focus4}}" bindtap="onTap4">吃货</view>
+        <view class="tag5 {{focus5}}" bindtap="onTap5">艺术</view>
+        <view class="tag6 {{focus6}}" bindtap="onTap6">古迹</view>
+      </view>
+    </view>
+    <view class='day'>
+      <view class="startDay">
+        <view class="startDay1">起始</view>
+        <view class="startDay2">{{startDay}}</view>
+      </view>
+      <view class="allDay">共{{allDay}}天</view>
+      <view class="endDay">
+        <view class="endDay1">结束</view>
+        <view class="endDay2">{{endDay}}</view>
+      </view>
+    </view>
+  </view>
+  <calendar class='chooiceDay' least-days="{{ leastDays }}" month-count="{{monthCount}}" bind:calendarchange="onCalendarChange" />
+  <view>
+    <view class="enter" bindtap="enter">
+      <text class="enterCenter">去旅行</text>
+    </view>
+  </view>
+</view>
+
+<view class="loading" wx:if="{{load}}">
+  <cover-image src="../../assets/loading.gif"></cover-image>
+  <view class="route">正为您智能推荐路径</view>
+
+</view>

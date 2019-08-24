@@ -1,0 +1,25 @@
+<swiper indicator-dots="{{true}}" interval="3000" circular="{{true}}" autoplay="{{true}}">
+  <swiper-item wx:for-index="index" wx:for="{{weather}}" wx:for-item="item">
+    <view class="weatherText item1 item{{index+1}} onBlack">
+      <view class="weatherItem1">{{item.nowWeather}}</view>
+      <view class="weatherItem2">{{item.wendu}}</view>
+      <view class="weatherItem3">{{item.nowDate}}</view>
+    </view>
+  </swiper-item>
+</swiper>
+<view class="wrapper" wx:for="{{city}}" wx:key="item" wx:for-item="item" wx:for-index="index" bindtap="getMap" data-reply-map="{{index}}">
+  <view class="day">
+    <view class="nowDay">
+      <view class="word">
+        Day{{index+1}}
+      </view>
+    </view>
+    <view class="right">
+      <view wx:for="{{item}}" wx:for-item="items" wx:for-index="idx" wx:key="items">
+        <view wx:if="{{item.length-idx != 1}}">{{items.name}}>
+        </view>
+        <view wx:else> {{items.name}} </view>
+      </view>
+    </view>
+  </view>
+</view>

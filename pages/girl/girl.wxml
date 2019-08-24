@@ -1,0 +1,35 @@
+<view class="wrapper">
+  <view class="boy marginTop100">告诉我你是啥样的女孩纸</view>
+  <view class="first">
+    <view class="item {{add1}}" bindtap="chooice1">
+      <cover-image class="itemIcon" src="../../assets/icon/1.png"></cover-image>
+      <view>呆萌萝莉</view>
+    </view>
+    <view class="item {{add2}}" bindtap="chooice2">
+      <cover-image class="itemIcon" src="../../assets/icon/2.png"></cover-image>
+      <view>古风少女</view>
+    </view>
+  </view>
+  <view class="first">
+    <view class="item {{add3}}" bindtap="chooice3">
+      <cover-image class="itemIcon" src="../../assets/icon/3.png"></cover-image>
+      <view>饭圈女孩</view>
+    </view>
+    <view class="item {{add4}}" bindtap="chooice4">
+      <cover-image class="itemIcon" src="../../assets/icon/4.png"></cover-image>
+      <view>佛系少女</view>
+    </view>
+  </view>
+  <view class="first">
+    <view class="item {{add5}}" bindtap="chooice5">
+      <cover-image class="itemIcon" src="../../assets/icon/5.png"></cover-image>
+      <view>职场精英</view>
+    </view>
+    <view class="item {{add6}}" bindtap="chooice6">
+      <cover-image class="itemIcon" src="../../assets/icon/6.png"></cover-image>
+      <view>广场女王</view>
+    </view>
+  </view>
+
+  <view class="next" bindtap="next">下一步</view>
+</view>

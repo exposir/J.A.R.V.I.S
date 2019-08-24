@@ -1,0 +1,35 @@
+<view class="wrapper">
+  <view class="boy marginTop100">告诉我你是啥样的男孩子</view>
+  <view class="first">
+    <view class="item {{add1}}" bindtap="chooice1">
+      <cover-image class="itemIcon" src="../../assets/icon/1.png"></cover-image>
+      <view>阳光少年</view>
+    </view>
+    <view class="item {{add2}}" bindtap="chooice2">
+      <cover-image class="itemIcon" src="../../assets/icon/2.png"></cover-image>
+      <view>科技极客</view>
+    </view>
+  </view>
+  <view class="first">
+    <view class="item {{add3}}" bindtap="chooice3">
+      <cover-image class="itemIcon" src="../../assets/icon/3.png"></cover-image>
+      <view>成熟大叔</view>
+    </view>
+    <view class="item {{add4}}" bindtap="chooice4">
+      <cover-image class="itemIcon" src="../../assets/icon/4.png"></cover-image>
+      <view>摄影达人</view>
+    </view>
+  </view>
+  <view class="first">
+    <view class="item {{add5}}" bindtap="chooice5">
+      <cover-image class="itemIcon" src="../../assets/icon/5.png"></cover-image>
+      <view>技术少年</view>
+    </view>
+    <view class="item {{add6}}" bindtap="chooice6">
+      <cover-image class="itemIcon" src="../../assets/icon/6.png"></cover-image>
+      <view>自驾高手</view>
+    </view>
+  </view>
+
+  <view class="next" bindtap="next">下一步</view>
+</view>

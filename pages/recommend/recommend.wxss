@@ -1,0 +1,21 @@
+/* pages/recommend/recommend.wxss */
+
+
+.wrapper{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 50rpx;
+  margin-bottom: 10rpx;
+  border-bottom: 1px solid #f0f0f0;
+  padding-left: 30rpx;
+}
+.pic1{
+  width: 100rpx;
+  height: 100rpx;
+}
+.name1{
+  margin-left: 50rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}

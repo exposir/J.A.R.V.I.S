@@ -1,0 +1,203 @@
+.wrapper {
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 0;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomBorder {
+  align-items: center;
+  text-align: center;
+  width: 300rpx;
+  height: 2rpx;
+  background: #d3d3d3;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+cover-image {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+}
+
+.choiceWrapper {
+  width: 300rpx;
+  height: 100rpx;
+  background: burlywood;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.search {
+  width: 650rpx;
+  height: 70rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border: 1px solid #edece8;
+  border-radius: 30rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.city {
+  position: relative;
+  color: white;
+}
+
+.cityName {
+  position: absolute;
+  left: 40rpx;
+  bottom: 70rpx;
+  font-size: 50rpx;
+  z-index: 999;
+}
+
+.cityDis {
+  position: absolute;
+  left: 30rpx;
+  bottom: 27rpx;
+  font-size: 30rpx;
+  z-index: 999;
+}
+
+.beijing {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/fc3e2091987ae4f1.jpg);
+  background-size: 100%;
+}
+
+.shanghai {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/99dd00b077d7db89.jpg);
+  background-size: 100%;
+}
+
+.guangzhou {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/296c72d3fd5da75c.jpg);
+  background-size: 100%;
+}
+
+.chengdu {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/088fd372d5c2bcda.jpg);
+  background-size: 100%;
+}
+
+.chongqing {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/5c6b6cb26de01bf5.jpg);
+  background-size: 100%;
+}
+
+.nanjing {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/75e994f4a87a26eb.jpg);
+  background-size: 100%;
+}
+
+.dali {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/798425aa687c2e1d.png);
+  background-size: 100%;
+}
+
+.hangzhou {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/d8233e2a4d95a8e3.jpg);
+  background-size: 100%;
+}
+
+.lijiang {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/6f25d5b8d3c1a8e2.jpg);
+  background-size: 100%;
+}
+
+.xiamen {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/6127d57668ce2d19.jpg);
+  background-size: 100%;
+}
+
+.kunming {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/c6b85b3cdc95b48b.jpg);
+  background-size: 100%;
+}
+
+.nanjing {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/75e994f4a87a26eb.jpg);
+  background-size: 100%;
+}
+
+.sanya {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/dee5507570c54c50.jpg);
+  background-size: 100%;
+}
+
+.qingdao {
+  width: 330rpx;
+  height: 330rpx;
+  margin: 15rpx;
+  z-index: 0;
+  background-image: url(http://i1.fuimg.com/660659/438db484a75de3b8.jpg);
+  background-size: 100%;
+}
+
+.onBlack {
+  text-shadow: 2px 2px 3px black;
+}

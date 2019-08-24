@@ -1,0 +1,221 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+}
+
+.tagWrapper {
+  position: fixed;
+  z-index: 888;
+  background: white;
+  /* border-bottom: 1px solid black; */
+}
+
+/* .bottomBorder {
+  align-items: center;
+  text-align: center;
+  width: 323rpx;
+  height: 2rpx;
+  background: #d3d3d3;
+  margin-top: rpx;
+  margin-bottom: 10rpx;
+} */
+
+.tag {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.day {
+  position: relative;
+  width: 100vw;
+  height: 70rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.startDay {
+  position: absolute;
+  left: 0;
+}
+
+.endDay {
+  position: absolute;
+  right: 0;
+  z-index: 888;
+}
+
+.allDay {
+  position: absolute;
+  left: 45.5%;
+  font-size: 30rpx;
+  /* top: 30rpx; */
+}
+
+.chooiceTag {
+  margin-top: 40rpx;
+  margin-bottom: 30rpx;
+}
+
+.chooiceDay {
+  position: absolute;
+  top: 330rpx;
+}
+
+.enter {
+  position: fixed;
+  bottom: 0;
+  z-index: 888;
+  width: 100%;
+  background: #76b74c;
+  opacity: 0.9;
+  height: 115rpx;
+  line-height: 115rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enter:hover {
+  position: fixed;
+  bottom: 0;
+  z-index: 888;
+  width: 100%;
+  background: #76b74c;
+  opacity: 1;
+  height: 115rpx;
+  line-height: 115rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: bold; */
+  text-shadow: 1px 1px 1px #7fcce3;
+}
+
+.enterCenter {
+  position: absolute;
+  color: white;
+  opacity: 1;
+  font-size: 40rpx;
+}
+
+.tag1 {
+  width: 120rpx;
+  height: 60rpx;
+  border: 1px solid #7fcce3;
+  border-radius: 15rpx;
+  /* border: 1px solid #73b8e2; */
+  color: #7fcce3;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  line-height: 60rpx;
+}
+
+.tag2 {
+  width: 120rpx;
+  height: 60rpx;
+  border: 1px solid #7fcce3;
+  border-radius: 15rpx;
+  color: #7fcce3;
+  margin-left: 100rpx;
+  margin-right: 100rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  line-height: 60rpx;
+}
+
+.tag3 {
+  width: 120rpx;
+  height: 60rpx;
+  border: 1px solid #7fcce3;
+  border-radius: 15rpx;
+  color: #7fcce3;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  line-height: 60rpx;
+}
+
+.tag4 {
+  width: 120rpx;
+  height: 60rpx;
+  border: 1px solid #7fcce3;
+  border-radius: 15rpx;
+  color: #7fcce3;
+  margin-top: 50rpx;
+  margin-bottom: 40rpx;
+  line-height: 60rpx;
+}
+
+.tag5 {
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border: 1px solid #7fcce3;
+  border-radius: 15rpx;
+  color: #7fcce3;
+  margin-left: 100rpx;
+  margin-right: 100rpx;
+  margin-top: 50rpx;
+  margin-bottom: 40rpx;
+}
+
+.tag6 {
+  width: 120rpx;
+  line-height: 60rpx;
+  height: 60rpx;
+  border: 1px solid #7fcce3;
+  border-radius: 15rpx;
+  color: #7fcce3;
+  margin-top: 50rpx;
+  margin-bottom: 40rpx;
+}
+
+.startDay1 {
+  margin-left: 90rpx;
+}
+
+.startDay2 {
+  margin-left: 90rpx;
+}
+
+.endDay1 {
+  margin-right: 90rpx;
+}
+
+.endDay2 {
+  margin-right: 90rpx;
+}
+
+.focus1 {
+  color: white;
+  background: #7fcce3;
+}
+
+.loading {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 400rpx;
+  height: 400rpx;
+  z-index: 999;
+}
+
+.route {
+  /* padding-left: 40rpx; */
+  background: white;
+  width: 400rpx;
+  height: 100rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  /* left: 50%;
+  top: 50%; */
+  /* transform: translate3d(-50%, -50%, 0); */
+}

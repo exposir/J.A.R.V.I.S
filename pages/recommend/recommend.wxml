@@ -1,0 +1,11 @@
+<map id="map" polyline="{{polyline}}" markers="{{markers}}" include-points="{{markers}}" style="width: 100%; height: 50vh;"></map>
+
+<view class="wrapper" wx:for="{{location}}" wx:key="item" wx:for-item="item">
+  <view class="first">
+    <view>
+      <!-- <cover-image class="pic1" src="{{item.src}}"></cover-image> -->
+      <view class="pic1" style="background-image: url({{item.src}});background-size: 100%;"></view>
+    </view>
+  </view>
+  <view class="name1">{{item.city}}</view>
+</view>

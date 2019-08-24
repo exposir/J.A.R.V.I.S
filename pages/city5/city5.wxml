@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="wrapper">
+  <view class="container">
+    <view>推荐城市</view>
+    <view class="bottomBorder"></view>
+    <view class="first" bindtap="enter">
+      <view class="city onBlack">
+        <view class="beijing"></view>
+        <text class="cityName">北京</text>
+        <text class="cityDis">80%的人想去</text>
+      </view>
+      <view class="city onBlack">
+        <view class="dali"></view>
+        <text class="cityName">大理</text>
+        <text class="cityDis">60%的人想去</text>
+      </view>
+    </view>
+
+    <view class="first" bindtap="enter">
+      <view class="city onBlack">
+        <view class="chengdu"></view>
+        <text class="cityName">成都</text>
+        <text class="cityDis">50%的人想去</text>
+      </view>
+      <view class="city onBlack">
+        <view class="chongqing"></view>
+        <text class="cityName ">重庆</text>
+        <text class="cityDis ">50%的人想去</text>
+      </view>
+    </view>
+    <view class="first " bindtap="enter ">
+      <view class="city onBlack ">
+       <view class="hangzhou "></view>
+        <text class="cityName ">杭州</text>
+        <text class="cityDis ">40%的人想去</text>
+      </view>
+      <view class="city onBlack ">
+        <view class="lijiang "></view>
+        <text class="cityName ">丽江</text>
+        <text class="cityDis ">40%的人想去</text>
+      </view>
+    </view>
+    <view class="first " bindtap="enter ">
+      <view class="city onBlack ">
+        <view class="qingdao "></view>
+        <text class="cityName">青岛</text>
+        <text class="cityDis">10%的人想去</text>
+      </view>
+      <view class="city onBlack">
+        <view class="nanjing"></view>
+        <text class="cityName">南京</text>
+        <text class="cityDis">50%的人想去</text>
+      </view>
+    </view>
+  </view>
+</view>

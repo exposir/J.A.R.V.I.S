@@ -1,0 +1,15 @@
+<view class="wrapper">
+  <view class="choice">请选择您的性别</view>
+  <view class="bottomBorder"></view>
+  <view class="choiceCity">根据选择为您推荐最适合的城市</view>
+
+  <view class="center">
+    <cover-image src="../../assets/1.jpeg" bindtap="choiceGirl" class="gender"></cover-image>
+  </view>
+  <view class="gender">女孩子</view>
+  <view class="bottomBorder2"></view>
+  <view class="center">
+    <cover-image src="../../assets/2.jpeg" bindtap="choiceBoy" class="gender"></cover-image>
+  </view>
+  <view class="gender">男孩子</view>
+</view>

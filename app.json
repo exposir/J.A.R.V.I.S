@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/feature/feature",
+    "pages/hello/hello",
+    "pages/router/router",
+    "pages/recommend/recommend",
+    "pages/girl/girl",
+    "pages/boy/boy",
+    "pages/city/city",
+    "pages/city1/city1",
+    "pages/city2/city2",
+    "pages/city3/city3",
+    "pages/city4/city4",
+    "pages/city5/city5"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5fba37",
+    "navigationBarTitleText": "Jarvis",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "plugins": {}
+}
